@@ -27,7 +27,6 @@ const nameFilter = (array) => {
 }
 
 // Invoca la funzione qui e stampa il risultato in console
-let call = nameFilter(names);
-console.log(call);
+console.log(nameFilter(names));
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
